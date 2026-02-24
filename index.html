@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Residence | Элитная недвижимость</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">ELITE RESIDENCE</div>
+            <ul class="nav-links">
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#objects">Объекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Дом вашей мечты начинается здесь</h1>
+                <p>Эксклюзивные предложения недвижимости в лучших локациях города.</p>
+                <div class="cta-group">
+                    <button class="btn-primary" onclick="location.href='#objects'">Посмотреть объекты</button>
+                    <button class="btn-secondary">Оставить заявку</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="objects" class="objects">
+            <h2>Наши объекты</h2>
+            <p class="subtitle">Тщательно отобранные коллекции для жизни и инвестиций</p>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-body">
+                        <span class="tag">Люкс</span>
+                        <h3>Diamond Loft</h3>
+                        <p>Центральный район, 120 м²</p>
+                        <div class="price">45 000 000 ₽</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1600607687940-4e2a09695d51?auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-body">
+                        <span class="tag">Премиум</span>
+                        <h3>Silk Valley</h3>
+                        <p>Пригородный парк, 240 м²</p>
+                        <div class="price">82 000 000 ₽</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1600566753190-17f0bb2a6c3e?auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-body">
+                        <span class="tag">Инвестиция</span>
+                        <h3>Azure Tower</h3>
+                        <p>Набережная, 85 м²</p>
+                        <div class="price">28 500 000 ₽</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>Почему выбирают нас</h2>
+                    <div class="feat">
+                        <h4>Экспертиза</h4>
+                        <p>Более 15 лет на рынке элитной недвижимости.</p>
+                    </div>
+                    <div class="feat">
+                        <h4>Конфиденциальность</h4>
+                        <p>Абсолютная приватность и безопасность всех сделок.</p>
+                    </div>
+                    <div class="feat">
+                        <h4>Сервис 24/7</h4>
+                        <p>Персональный менеджер всегда на связи.</p>
+                    </div>
+                </div>
+                <div class="about-img" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80');"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="logo">ELITE RESIDENCE</div>
+            <p>Ваш партнер в мире безупречной недвижимости.</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Elite Residence. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
